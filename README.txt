@@ -1,12 +1,14 @@
+In this project I simulate encryption of Email, but instead of sending mails, I write the output in files.
+
 My program can be launch from the Main class, but every class can also be run in local without the main.
 Example about how to launch classes : 
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\AUIN\AUINReceiver.java ReadMail AUIN Louis Alix Output.txt file sha3-512 AES
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\AUIN\AUINSender.java CreateMail AUIN Louis Alix Message.txt Output.txt sha3-512 AES 1024
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\COAI\COAIReceiver.java ReadMail COAI Louis Alix Output.txt fileFinal.txt sha512 aes-256-cbc
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\COAI\COAISender.java CreateMail COAI Louis Alix Message.txt Output.txt sha512 aes-256-cbc 1024
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\CONF\ConfSender.java CreateMail CONF Louis Alix Message.txt Output.txt alg AES 1024
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\CONF\ReceiverConf.java ReadMail CONF Louis Alix Output.txt Plaintext.txt sha512 AES
-java C:\Users\solen\Documents\IITM\Network Security\Lab 3\SourceFiles\main\GenerateKey.java CreateKeys Names.txt 2048
+java AUINReceiver.java ReadMail AUIN Louis Alix Output.txt file sha3-512 AES
+java AUINSender.java CreateMail AUIN Louis Alix Message.txt Output.txt sha3-512 AES 1024
+java COAIReceiver.java ReadMail COAI Louis Alix Output.txt fileFinal.txt sha512 aes-256-cbc
+java COAISender.java CreateMail COAI Louis Alix Message.txt Output.txt sha512 aes-256-cbc 1024
+java ConfSender.java CreateMail CONF Louis Alix Message.txt Output.txt alg AES 1024
+java ReceiverConf.java ReadMail CONF Louis Alix Output.txt Plaintext.txt sha512 AES
+java GenerateKey.java CreateKeys Names.txt 2048
  
 In order to run a program, the parameters needs to be exactly the same as the one in the assignement subject.
 (java -jar lab3.jar CreateKeys UserNameListFile RSAKeySize
