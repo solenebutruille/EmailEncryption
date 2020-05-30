@@ -1,8 +1,0 @@
-I found this project very interessting and I really liked doing it. I won't change anything.
-As I did it in Java it was very easy.
-The only suggestion that I can make is that starting on assignement 2 we have those informations : 
-OpenSSL(www.openssl.org)
-JavaJCA(https://docs.oracle.com/javase/7/docs/technotes/guides/security/ crypto/CryptoSpec.html)
-Python (https://pypi.org/project/cryptography)
-
-Indeed, I really struggled on assignement 2 because I did it in C. 
